@@ -45,6 +45,8 @@ jobs:
       #     key: jupyter-book-cache-${{ hashFiles('requirements.txt') }}
 
       # Build the book
+      - name: Print Jupyter Book Configuration
+        run: cat _config.yml
       - name: Build the book
         run: |
           jupyter-book build .
@@ -56,7 +58,7 @@ jobs:
           path: "_build/html"
 
       # Upload all error logs as artifacts
-      - name: Upload error logs
+      - name: Upload error and warning logs
         if: always()
         uses: actions/upload-artifact@v3
         with:
