@@ -18,10 +18,8 @@ This repository contains a collection of Jupyter Notebooks that cover various bu
 
 The following is a list of available notebooks:
 
-1. **Business Case 1**: Description of the first business case.
-2. **Worked Example 1**: Description of the first worked example.
-3. **Business Case 2**: Description of the second business case.
-4. **Worked Example 2**: Description of the second worked example.
+1. **Interactive Visualization**: 
+3. **Decision Making Under Risk**:
 
 ## How to View
 
