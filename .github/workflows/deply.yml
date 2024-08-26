@@ -55,6 +55,14 @@ jobs:
         with:
           path: "_build/html"
 
+      # Upload all error logs as artifacts
+      - name: Upload error logs
+        if: failure()
+        uses: actions/upload-artifact@v3
+        with:
+          name: error-logs
+          path: _build/html/reports/notebooks/*.err.log
+
       # Deploy the book's HTML to GitHub Pages
       - name: Deploy to GitHub Pages
         id: deployment
