@@ -15,5 +15,6 @@ html:
 
 # Execution settings
 execute:
-  timeout: 1200 # Timeout in seconds (e.g., 600 seconds = 10 minutes)
+  execute_notebooks: cache
+  timeout: 3600 # Timeout in seconds (e.g., 600 seconds = 10 minutes)
 
