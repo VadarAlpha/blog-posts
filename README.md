@@ -18,7 +18,7 @@ This repository contains a collection of Jupyter Notebooks that cover various bu
 
 The following is a list of available notebooks:
 
-1. **Interactive Visualization**: 
+1. **Interactive Visualization**: In this blog post, we delve into the world of interactive network visualization, demonstrating how to effectively map and explore complex relationships within data. Using cutting-edge tools and techniques, we guide you through the process of creating dynamic visualizations that not only reveal hidden patterns but also enhance data comprehension and decision-making. Whether you’re a data scientist, researcher, or enthusiast, this tutorial equips you with the skills to transform raw data into insightful, interactive network graphs
 3. **Decision Making Under Risk**:
 
 ## How to View
