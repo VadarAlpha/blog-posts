@@ -19,7 +19,11 @@ This repository contains a collection of Jupyter Notebooks that cover various bu
 The following is a list of available notebooks:
 
 1. **Interactive Visualization**: In this blog post, we delve into the world of interactive network visualization, demonstrating how to effectively map and explore complex relationships within data. Using cutting-edge tools and techniques, we guide you through the process of creating dynamic visualizations that not only reveal hidden patterns but also enhance data comprehension and decision-making. Whether you’re a data scientist, researcher, or enthusiast, this tutorial equips you with the skills to transform raw data into insightful, interactive network graphs
-3. **Decision Making Under Risk**:
+3. **Decision Making Under Risk**: In today’s volatile global landscape, supply chains face constant disruptions from natural disasters, geopolitical events, and unforeseen crises. Traditional risk management strategies, often reactive and siloed, struggle to keep pace with the dynamic nature of modern supply chains.
+   
+- Comprehensive Risk Analysis: Go beyond simple visualization to conduct in-depth risk analysis, considering factors like supplier stability, transportation vulnerabilities, and potential disruptions.
+- Proactive Decision-Making: Leverage advanced modeling and simulation to forecast the impact of various scenarios, empowering stakeholders to make informed decisions about sourcing, inventory, and logistics.
+- Increased Efficiency & Resilience: Identify cost-effective transportation routes while minimizing exposure to risk, ensuring a resilient and efficient supply chain.
 
 ## How to View
 
