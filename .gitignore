@@ -47,5 +47,6 @@ venv/
 *.log
 *.tmp
 
-# Ignore GraphML files
+# Ignore Data files
+*.csv
 *.graphml
