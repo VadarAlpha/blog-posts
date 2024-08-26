@@ -11,3 +11,7 @@ repository:
 # Additional settings
 html:
   favicon: "_static/images/favicon.ico"
+
+# Execution settings
+execution:
+  timeout: 1200 # Timeout in seconds (e.g., 600 seconds = 10 minutes)
