@@ -27,9 +27,7 @@ The following is a list of available notebooks:
 
 You can view the notebooks directly on GitHub Pages. Simply navigate to the following URL:
 
-[https://your-username.github.io/blog-posts/](https://your-username.github.io/blog-posts/)
-
-Replace `your-username` with your GitHub username.
+[https://vadaralpha.github.io/blog-posts/](https://vadaralpha.github.io/blog-posts/)
 
 ## Contributing
 
