@@ -19,19 +19,28 @@ build/
 *.jl.unwind
 
 # Jupyter
-.ipynb_checkpoints
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
 *.ipynb_checkpoints
+
+# Ignore cache directories
+notebooks/cache/
 
 # Jupyter Book build
 _site/
 .jupyter_cache/
 .jupyter_book/
-
-# Allow Jupyter Book build output
-!_build/
-!_build/html/
-!_build/html/**
+_build/
 
 # General
 .DS_Store
 Thumbs.db
+
+# Ignore virtual environment directories
+env/
+venv/
+
+# Ignore other files
+*.log
+*.tmp
