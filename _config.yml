@@ -1,0 +1,13 @@
+# Book settings
+title: "Vadar Alpha: Clarity with Data Series"
+author: "Stephen Pounds"
+logo: "_static/images/logo.png"
+
+# Configuration for the Jupyter Book
+repository:
+  url: https://github.com/VadarAlpha/blog-posts
+  path_to_book: "https://vadaralpha.github.io/blog-posts/notebooks/index.html"
+
+# Additional settings
+html:
+  favicon: "_static/images/favicon.ico"
