@@ -1,6 +1,5 @@
 # Python
 __pycache__/
-.venv/
 *.py[cod]
 *.so
 *.egg
@@ -41,7 +40,12 @@ Thumbs.db
 # Ignore virtual environment directories
 env/
 venv/
+.env/
+.venv/
 
 # Ignore other files
 *.log
 *.tmp
+
+# Ignore GraphML files
+*.graphml
