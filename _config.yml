@@ -1,7 +1,8 @@
 # Book settings
 title: "Vadar Alpha: Clarity with Data Series"
-author: "Vadar Alpha,Inc"
+author: "Vadar Alpha"
 logo: "_static/images/logo.png"
+copyright: "2024 Vadar Alpha, Inc"
 
 # Configuration for the Jupyter Book
 repository:
@@ -15,3 +16,4 @@ html:
 # Execution settings
 execution:
   timeout: 1200 # Timeout in seconds (e.g., 600 seconds = 10 minutes)
+
