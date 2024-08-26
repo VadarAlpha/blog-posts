@@ -39,7 +39,7 @@ We welcome contributions from the community! If you have a business case or work
 4. Push to the branch: `git push origin feature/your-feature-name`.
 5. Open a pull request.
 
-Please ensure that your contributions adhere to our [Code of Conduct](CODE_OF_CONDUCT.md).
+
 
 ## License
 
