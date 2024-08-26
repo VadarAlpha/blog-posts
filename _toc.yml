@@ -1,0 +1,7 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+format: jb-article
+root: notebooks/index # Ensure this file exists
+sections:
+  - file: notebooks/interactive_network_visualization.ipynb
+  - file: notebooks/decision_making_under_risk_part_1.ipynb
