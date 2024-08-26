@@ -50,3 +50,4 @@ venv/
 # Ignore Data files
 *.csv
 *.graphml
+*.html
