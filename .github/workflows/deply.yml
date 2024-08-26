@@ -47,6 +47,7 @@ jobs:
       # Build the book
       - name: Print Jupyter Book Configuration
         run: cat _config.yml
+
       - name: Build the book
         run: |
           jupyter-book build .
