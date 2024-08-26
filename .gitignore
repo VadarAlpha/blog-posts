@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.pyc
+
+# Julia
+*.jl.cov
+*.jl.grcov
+*.jl.mem
+*.jl.prof
+*.jl.reloc
+*.jl.stack
+*.jl.trace
+*.jl.unwind
+
+# Jupyter
+.ipynb_checkpoints
+*.ipynb_checkpoints
+
+# Jupyter Book build
+_site/
+.jupyter_cache/
+.jupyter_book/
+
+# Allow Jupyter Book build output
+!_build/
+!_build/html/
+!_build/html/**
+
+# General
+.DS_Store
+Thumbs.db
