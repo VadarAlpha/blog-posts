@@ -1,0 +1,27 @@
+{
+    "supplier_types": [
+      "Metal Suppliers",
+      "Plastic and Polymer Suppliers",
+      "Material Suppliers",
+      "Casting and Forging Suppliers",
+      "Actuator and Control Suppliers",
+      "Packaging Material Suppliers"
+    ],
+    "locations": {
+      "Wausau, WI, USA": [44.9591, -89.6301],
+      "Houston, TX, USA": [29.7604, -95.3698],
+      "New Orleans, LA, USA": [29.9511, -90.0715],
+      "Mobile, AL, USA": [30.6954, -88.0399],
+      "Savannah, GA, USA": [32.0809, -81.0912],
+      "Charleston, SC, USA": [32.7765, -79.9311]
+    },
+    "color_map": {
+      "Metal Suppliers": "blue",
+      "Plastic and Polymer Suppliers": "green",
+      "Material Suppliers": "red",
+      "Casting and Forging Suppliers": "purple",
+      "Actuator and Control Suppliers": "orange",
+      "Packaging Material Suppliers": "brown",
+      "Valve Manufacturer": "black"
+    }
+  }
