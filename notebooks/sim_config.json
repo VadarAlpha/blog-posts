@@ -13,7 +13,9 @@
       "New Orleans, LA, USA": [29.9511, -90.0715],
       "Mobile, AL, USA": [30.6954, -88.0399],
       "Savannah, GA, USA": [32.0809, -81.0912],
-      "Charleston, SC, USA": [32.7765, -79.9311]
+      "Charleston, SC, USA": [32.7765, -79.9311],
+      "Baton Rouge, LA, USA": [30.4515, -91.1871],
+      "Tampa, FL, USA":[27.9506, -82.4572]
     },
     "color_map": {
       "Metal Suppliers": "blue",
@@ -21,7 +23,7 @@
       "Material Suppliers": "red",
       "Casting and Forging Suppliers": "purple",
       "Actuator and Control Suppliers": "orange",
-      "Packaging Material Suppliers": "brown",
+      "Packaging Material Suppliers": "darkred",
       "Valve Manufacturer": "black"
     }
   }

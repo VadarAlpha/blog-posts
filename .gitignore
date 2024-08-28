@@ -36,6 +36,7 @@ _site/
 # General
 .DS_Store
 Thumbs.db
+cache/
 
 # Ignore virtual environment directories
 env/
