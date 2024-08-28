@@ -83,23 +83,3 @@ def visualize_supply_chain(G, locations_with_suppliers, color_map, output_file='
     # Save the map to an HTML file
     m.save(output_file)
     logging.info(f"Map saved to {output_file}")
-
-if __name__ == "__main__":
-    # Load configuration from JSON file
-    config = load_config('sim_config.json')
-    supplier_types = config['supplier_types']
-    locations = config['locations']
-    color_map = config['color_map']
-
-    # Assign supplier types to locations
-    locations_with_suppliers = assign_supplier_types(locations, supplier_types)
-
-    # Print the resulting dictionary
-    for location, details in locations_with_suppliers.items():
-        logging.info(f"{location}: {details}")
-
-    # Load the combined graph from the saved file
-    combined_graph = ox.load_graphml("combined_graph.graphml")
-
-    # Visualize the supply chain
-    visualize_supply_chain(combined_graph, locations_with_suppliers, color_map)

@@ -1,7 +1,10 @@
 import json
-import simpy
 import osmnx as ox
+import requests_cache
 from .network import download_road_networks, download_interstate_network, create_multidigraph, connect_locations, combine_graphs
+
+# Set up requests caching
+requests_cache.install_cache('overpass_cache', expire_after=3600)  # Cache expires after 1 hour
 
 def build_supply_chain_from_config(config_file, combined_graph_filepath):
     # Load the configuration file
@@ -30,11 +33,19 @@ def build_supply_chain_from_config(config_file, combined_graph_filepath):
     # Print the bounding box coordinates
     print("Bounding box - North:", north, "South:", south, "East:", east, "West:", west)
 
-    # Create the road network graph
-    road_networks = ox.graph_from_bbox(north, south, east, west, network_type='drive')
-    G = create_multidigraph(road_networks)
+    # Download the interstate network
+    interstates_graph = download_interstate_network(north, south, east, west)
 
-    return G, road_networks
+    # Download the road networks for each location
+    road_networks = download_road_networks(locations)
+
+    # Combine the road networks with the interstate network
+    combined_graph = combine_graphs(road_networks, interstates_graph)
+
+    # Save the combined graph to a file
+    ox.save_graphml(combined_graph, combined_graph_filepath)
+
+    return combined_graph, road_networks
 
 def simulate_supply_chain(G):
     env = simpy.Environment()
