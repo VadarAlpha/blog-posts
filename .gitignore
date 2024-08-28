@@ -51,3 +51,6 @@ venv/
 *.csv
 *.graphml
 *.html
+
+# Ignore database files
+*.sqlite

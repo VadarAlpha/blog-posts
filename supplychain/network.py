@@ -59,8 +59,12 @@ def connect_locations(G, interstates_graph):
     return G
 
 def combine_graphs(graphs, combined_graph_filepath):
+    # Combine all the graphs into one
     combined_graph = nx.compose_all(graphs)
     logging.info("Combined graph created successfully")
+    
+    # Save the combined graph to a file
     ox.save_graphml(combined_graph, filepath=combined_graph_filepath)
     logging.info("Combined graph saved successfully")
+    
     return combined_graph

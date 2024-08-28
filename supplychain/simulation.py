@@ -40,10 +40,7 @@ def build_supply_chain_from_config(config_file, combined_graph_filepath):
     road_networks = download_road_networks(locations)
 
     # Combine the road networks with the interstate network
-    combined_graph = combine_graphs(road_networks, interstates_graph)
-
-    # Save the combined graph to a file
-    ox.save_graphml(combined_graph, combined_graph_filepath)
+    combined_graph = combine_graphs(road_networks + [interstates_graph], combined_graph_filepath)
 
     return combined_graph, road_networks
 
