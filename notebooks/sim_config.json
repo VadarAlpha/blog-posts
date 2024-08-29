@@ -15,8 +15,8 @@
       "Savannah, GA, USA": [32.0809, -81.0912],
       "Charleston, SC, USA": [32.7765, -79.9311],
       "Baton Rouge, LA, USA": [30.4515, -91.1871],
-      "Tampa, FL, USA":[27.9506, -82.4572]
-    },
+      "Lakeland, FL, USA": [28.0395, -81.9498]
+  },
     "color_map": {
       "Metal Suppliers": "blue",
       "Plastic and Polymer Suppliers": "green",

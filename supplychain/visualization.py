@@ -1,3 +1,4 @@
+import dis
 import folium
 import osmnx as ox
 import networkx as nx
@@ -6,6 +7,7 @@ import itertools
 import logging
 import json
 from folium.plugins import MeasureControl
+from IPython.display import display
 
 # Configure logging
 # logging.basicConfig(level=logging.ERROR)
@@ -107,4 +109,7 @@ def visualize_supply_chain(
 
     # Save the map to an HTML file
     m.save(output_file)
+
     logging.info(f"Map saved to {output_file}")
+
+    display(m)
