@@ -30,22 +30,8 @@ def build_supply_chain_from_config(config_file, combined_graph_filepath):
     place_names = list(locations.keys())  # Extract place names
 
     # Print the extracted place names
-    print("Place names:", place_names)
-
-    # # Geocode the place names to get their geometries
-    # gdf = ox.geocode_to_gdf(place_names)
-
-    # # Print the geocoded geometries
-    # print("Geocoded geometries:\n", gdf)
-
-    # # Determine bounding box for interstates
-    # north = gdf.geometry.bounds.maxy.max()
-    # south = gdf.geometry.bounds.miny.min()
-    # east = gdf.geometry.bounds.maxx.max()
-    # west = gdf.geometry.bounds.minx.min()
-
-    # Print the bounding box coordinates
-    # print("Bounding box - North:", north, "South:", south, "East:", east, "West:", west)
+    # Log the extracted place names
+    logging.info("Place names: %s", place_names)
 
     # Download the interstate network
     interstates_graph = download_interstate_network(locations)
