@@ -32,6 +32,7 @@ notebooks/_build/
 _site/
 .jupyter_cache/
 .jupyter_book/
+_build/
 
 # General
 .DS_Store
