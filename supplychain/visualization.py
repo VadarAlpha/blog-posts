@@ -1,4 +1,3 @@
-import dis
 import folium
 import osmnx as ox
 import networkx as nx
@@ -44,6 +43,7 @@ def visualize_supply_chain(
     G, locations_with_suppliers, color_map, output_file="supplier_map.html"
 ):
     # Initialize the Folium map centered around Wausau with the default OpenStreetMap tiles
+
     wausau_location = locations_with_suppliers["Wausau, WI, USA"]["coordinates"]
     m = folium.Map(location=wausau_location, zoom_start=4)
 
