@@ -6,6 +6,7 @@ Welcome to the Jupyter Book for our Decision Clarity with Data Series. This book
 
 - [Interactive Network Visualization](interactive_network_visualization.ipynb)
 - [Decision Making Under Risk](decision_making_under_risk_part_1.ipynb)
+- [Decision Making Under Risk part 2](decision_making_under_risk_part_2.ipynb)
 
 ## About This Book
 

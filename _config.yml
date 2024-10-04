@@ -18,9 +18,7 @@ execute:
   execute_notebooks: cache
   timeout: 3600 # Timeout in seconds (e.g., 600 seconds = 10 minutes)
 
-# # Sphinx configuration
-# sphinx:
-#   config:
-#     nb_execution_mode: "off" # or 'cache'
-#     nb_render_plugin: "myst-nb"
-#     myst_nb_hide_code_input: true
+sphinx:
+  config:
+    html_permalinks_icon: "<span>#</span>"
+    html_theme: "sphinx_book_theme"
